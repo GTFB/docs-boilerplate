@@ -1,0 +1,83 @@
+---
+title: shadcn/ui Components in Documentation
+description: Learn how to use shadcn/ui components directly in your documentation
+---
+
+# Using shadcn/ui Components in Documentation
+
+This page demonstrates how you can use shadcn/ui components directly in your Docusaurus documentation using MDX.
+
+## Interactive Components
+
+You can import and use React components directly in your markdown files:
+
+```jsx
+import { Button } from '../src/components/ui/button';
+import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/card';
+
+<Button onClick={() => alert('Hello from MDX!')}>
+  Click me!
+</Button>
+```
+
+## Live Examples
+
+Here are some live examples of shadcn/ui components working in your documentation:
+
+import { Button } from '../src/components/ui/button';
+import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/card';
+
+<div className="my-8 space-y-4">
+  <Card>
+    <CardHeader>
+      <CardTitle>Interactive Documentation</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <p className="mb-4">
+        This card demonstrates that shadcn/ui components work perfectly in MDX files.
+        You can create rich, interactive documentation experiences.
+      </p>
+      <div className="flex gap-2">
+        <Button 
+          variant="default"
+          onClick={() => alert('Button clicked from MDX!')}>
+          Primary Action
+        </Button>
+        <Button 
+          variant="outline"
+          onClick={() => console.log('Secondary action')}>
+          Secondary Action
+        </Button>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## Benefits of This Approach
+
+- **Interactive Documentation**: Users can interact with components directly
+- **Live Examples**: Show real functionality, not just static images
+- **Consistent Design**: All components use the same design system
+- **Easy Maintenance**: Update components once, they update everywhere
+
+## Code Examples
+
+You can also show code examples with syntax highlighting:
+
+```tsx
+import { Button } from '../src/components/ui/button';
+
+export function MyComponent() {
+  return (
+    <Button variant="outline" size="lg">
+      Large Outline Button
+    </Button>
+  );
+}
+```
+
+## Next Steps
+
+- Explore the [shadcn/ui Demo](/shadcn-demo) page for more examples
+- Check out the [Component Library](/docs/technical/tech-stack) for available components
+- Learn how to [customize components](/docs/business/project-overview) for your needs

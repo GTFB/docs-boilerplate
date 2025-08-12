@@ -1,0 +1,44 @@
+tutorial:
+  name: Tutorial
+  description: Step-by-step guides and how-to articles
+  permalink: /blog/tags/tutorial
+
+guide:
+  name: Guide
+  description: Comprehensive guides and best practices
+  permalink: /blog/tags/guide
+
+news:
+  name: News
+  description: Updates, announcements, and new features
+  permalink: /blog/tags/news
+
+shadcn-ui:
+  name: shadcn/ui
+  description: Articles about shadcn/ui components and integration
+  permalink: /blog/tags/shadcn-ui
+
+docusaurus:
+  name: Docusaurus
+  description: Docusaurus tips, tricks, and tutorials
+  permalink: /blog/tags/docusaurus
+
+tailwind:
+  name: Tailwind CSS
+  description: Tailwind CSS tutorials and examples
+  permalink: /blog/tags/tailwind
+
+react:
+  name: React
+  description: React development and component building
+  permalink: /blog/tags/react
+
+documentation:
+  name: Documentation
+  description: Documentation best practices and strategies
+  permalink: /blog/tags/documentation
+
+user-experience:
+  name: User Experience
+  description: UX design and user engagement strategies
+  permalink: /blog/tags/user-experience
