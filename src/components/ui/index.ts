@@ -8,7 +8,6 @@ export { Alert, AlertTitle, AlertDescription } from './Alert';
 export { Navigation } from './Navigation';
 
 // Content Components
-export { Hero } from './Hero';
 export { FeatureGrid } from './FeatureGrid';
 export { Pricing } from './Pricing';
 export { Testimonial } from './Testimonial';
