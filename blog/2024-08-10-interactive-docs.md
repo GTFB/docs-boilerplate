@@ -9,8 +9,10 @@ authors: [team]
 
 Transform your static documentation into an engaging, interactive experience that keeps users engaged and informed.
 
-import { Button } from '../src/components/ui/button';
-import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/card';
+<!-- truncate -->
+
+import { Button } from '../src/components/ui/Button';
+import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/Card';
 
 ## The Power of Interactive Documentation
 

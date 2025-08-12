@@ -98,6 +98,16 @@ const config: Config = {
           label: 'Theme Test',
           position: 'left',
         },
+        {
+          to: '/simple-test',
+          label: 'Simple Test',
+          position: 'left',
+        },
+        {
+          to: '/css-test',
+          label: 'CSS Test',
+          position: 'left',
+        },
 
         {
           href: 'https://github.com/yourusername/docs-boilerplate',

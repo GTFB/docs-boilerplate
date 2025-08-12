@@ -9,8 +9,10 @@ authors: [team]
 
 Learn how to transform your Docusaurus documentation into a modern, interactive experience using shadcn/ui components and Tailwind CSS.
 
-import { Button } from '../src/components/ui/button';
-import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/card';
+<!-- truncate -->
+
+import { Button } from '../src/components/ui/Button';
+import { Card, CardHeader, CardTitle, CardContent } from '../src/components/ui/Card';
 
 ## Why shadcn/ui?
 
