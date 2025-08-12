@@ -47,7 +47,7 @@ export function Navigation({ className = '' }: NavigationProps) {
         </div>
         
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="/docs-example" className="text-sm/6 font-semibold text-gray-900 hover:text-gray-600">
+          <Link to="/theme-test" className="text-sm/6 font-semibold text-gray-900 hover:text-gray-600">
             Get Started <span aria-hidden="true">→</span>
           </Link>
         </div>
@@ -91,7 +91,7 @@ export function Navigation({ className = '' }: NavigationProps) {
                   </Link>
                 </div>
                 <div className="py-6">
-                  <Link to="/docs-example" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                  <Link to="/theme-test" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     Get Started
                   </Link>
                 </div>
